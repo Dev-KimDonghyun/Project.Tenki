@@ -1,4 +1,4 @@
-const apiKey = "dfb7d734a109aa8ae51bf635c25996bd";
+const apiKey = [Your OpenWeatherMap API Key];
 const cities = ["Tokyo", "Osaka", "Fukuoka", "Nagoya", "Sapporo", "Okinawa"];
 const cityElements = cities.map(city => document.querySelector(`.${city.toLowerCase()}-temp`));
 
